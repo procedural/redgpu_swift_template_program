@@ -1,0 +1,6 @@
+module redgpu {
+  umbrella header "redgpu.h"
+  link "/opt/RedGpuSDK/libredgpu.so"
+  link "/opt/RedGpuSDK/sdk/1.2.135.0/x86_64/lib/libvulkan.so" 
+}
+
